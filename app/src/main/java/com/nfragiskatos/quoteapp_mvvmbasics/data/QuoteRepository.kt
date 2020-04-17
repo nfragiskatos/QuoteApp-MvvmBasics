@@ -9,7 +9,7 @@ class QuoteRepository private constructor(private val quoteDao: FakeQuoteDao) {
         quoteDao.addQuote(quote)
     }
 
-    fun getQuores() = quoteDao.getQuotes()
+    fun getQuotes() = quoteDao.getQuotes()
 
     companion object {
         @Volatile
